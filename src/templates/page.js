@@ -18,7 +18,6 @@ export const query = graphql`
 export default class Page extends React.Component {
     render() {
         return (
-            
             <Layout {...this.props}>
             <div className="outer">
               <div className="inner-medium">
